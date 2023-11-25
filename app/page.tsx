@@ -1,5 +1,5 @@
-'use client';
-import Particles from '@/components/Particles';
+// 'use client';
+// import Particles from '@/components/Particles';
 import { projectsData } from '@/data/projectsData';
 
 // eslint-disable-next-line import/no-extraneous-dependencies
@@ -28,10 +28,10 @@ interface ProjectsProps {
 export default function Home() {
   return (
     <div className='flex flex-col gap-8'>
-      <Particles
+      {/* <Particles
         className='absolute inset-0 -z-10 animate-fade-in'
         quantity={100}
-      />
+      /> */}
       <Header />
       <About />
       <Tools />
