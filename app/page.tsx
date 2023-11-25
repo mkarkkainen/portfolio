@@ -1,3 +1,4 @@
+'use client';
 import Particles from '@/components/Particles';
 import { projectsData } from '@/data/projectsData';
 
