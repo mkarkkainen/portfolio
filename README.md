@@ -1,103 +1,46 @@
-# Ultimate Front-end Template
+# My Portfolio Website
 
-![preview](https://cdn.discordapp.com/attachments/797485737272541250/952208625806495815/image_5.png)
+This is my personal portfolio website built with Next.js and Tailwind CSS. It showcases my projects, skills, and provides a glimpse into my professional journey.
 
-> Most elements are taken from [my website](https://cretu.dev).
+## Table of Contents
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fcristicretu%2Fts-next-tailwind-template)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Customization](#customization)
+- [Credits](#credits)
+- [License](#license)
 
-[Use as a CodeSandbox template](https://codesandbox.io/s/ts-next-tailwind-template-vbjvcr)
+## Features
 
-## Ingredients ✨:
+- Modern and responsive design.
+- Next.js for server-side rendering and optimized performance.
+- Tailwind CSS for easy styling and customization.
+- [Add more features here]
 
-- NextJS 13 🚀
-- TailwindCSS 🦄
-- Typescript 🦺
-- Dark Mode Support 🌓
-- ESLint + Prettier Config 📂
-- Husky 🐶
-- Self-Hosted Inter Font ␊
+## Getting Started
 
-## Getting started
+### Prerequisites
 
-1. With 'use as template' repository
-   ![preview](https://cdn.discordapp.com/attachments/797485737272541250/952208604386189332/Group_11.png)
+Make sure you have the following installed:
 
-2. Clone the project
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 
-```bash
-# http
-git clone https://github.com/cristicretu/ts-next-tailwind-template.git
-```
+### Installation
 
-```bash
-# ssh
-git clone git@github.com:cristicretu/ts-next-tailwind-template.git
-```
+1. Clone the repository:
 
-3. With `create-next-app`
+   ```bash
+   git clone https://github.com/your-username/your-portfolio.git
+   ```
 
-```bash
-npx create-next-app -e https://github.com/cristicretu/ts-next-tailwind-template project-name
-```
+## Credits
 
-* Tip: if you want to use the version prior to Next.js 13 with the app directory, use:
-```bash
-npx create-next-app -e https://github.com/cristicretu/ts-next-tailwind-template/tree/1ac5d6dd4157ea3c7cc89f14fbfbf01ab0b495fc project-name
-```
+This portfolio website is built upon the template provided by [cristicretu](https://github.com/cristicretu/ts-next-tailwind-template). The template served as a foundation, and I have made customizations to suit my needs.
 
-Install the required packages and run the template
+**Original Template Repository:** [ts-next-tailwind-template](https://github.com/cristicretu/ts-next-tailwind-template)
 
-```bash
-cd project-name
-npm install
-# yarn install
-# pnpm install
-```
-
-## Included
-
-### Custom classNames function
-> Under `/lib/classNames`
-
-### Packages
-
-1. Next-themes: An abstraction for themes in your Next.js app
-2. react-use: react-hooks
-3. Framer Motion: animation library
-
-### Custom globals.css
-
-1. custom underline
-2. vercel navbar
-3. removes firefox, edge and ie. bugs with overflows
-
-### Absolute Imports
-
-```tsx
-import TextField from '../../../ui/TextField.tsx'
-```
-
-changes to
-
-```tsx
-import TextField from 'uis/TextField.tsx'
-```
-
-### SEO optimization found in `Container.tsx`
-
-### Folder structuring & organization
-
-> Under `/ui/` & `/public/`
-
-### Self Hosted Inter Font
-
-> Under `/public/fonts/`
-
-### 404 Page
-
-### Favicons and more configs
-
-> Under `/public/static/favicons/`
-
-![preview](https://cdn.discordapp.com/attachments/797485737272541250/952211815046197278/Frame_7.png)
+I would like to express my gratitude to [cristicretu](https://github.com/cristicretu) for creating and sharing this template, which greatly accelerated the development of my portfolio.
