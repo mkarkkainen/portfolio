@@ -59,9 +59,11 @@ function About() {
     <div className='flex flex-col'>
       <h1 className='text-quaternary'>about</h1>
       <p className='pointer-events-none text-secondary'>
-        Hey, my name is Miikka. I’m a UX/UI designer & Front-end web developer
-        based in Costa Rica. I’m interested in the intersection between design
-        and technology and always curious to learn.. and also big into surfing.
+        Hey, my name is Miikka. I&apos;m a design minded full-stack developer.
+        I&apos;m interested in the intersection between design and technology
+        and always curious to learn. I&apos;m a big fan of React and Next.js. I
+        also enjoy using TypeScript and Tailwind CSS. I&apos;m currently looking
+        for new opportunities to learn and grow as a developer.
       </p>
     </div>
   );
@@ -148,7 +150,7 @@ function Projects({ projectsData }: ProjectsProps) {
         <ul className='flex flex-col gap-4'>
           {projectsData &&
             projectsData.map((project, index) => (
-              <li key={project.title + index}>
+              <li className='cursor-pointer' key={project.title + index}>
                 <ProjectCard
                   description={project.description}
                   roles={project.roles}
