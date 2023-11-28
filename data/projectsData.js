@@ -1,7 +1,6 @@
 module.exports = {
   projectsData: [
     {
-      id: 1,
       title: 'OceanExpress CR',
       label: 'OceanExpress CR',
       path: '/oceanexpress',
@@ -54,7 +53,6 @@ module.exports = {
       newKey: 'newValue',
     },
     {
-      id: 2,
       title: 'Beast Philanthropy',
       label: 'Beast Philantrophy',
       path: '/beast',
@@ -107,7 +105,6 @@ module.exports = {
       newKey: 'newValue',
     },
     {
-      id: 3,
       title: 'TestSmarter',
       label: 'TestSmarter',
       path: '/testsmarter',
@@ -149,7 +146,6 @@ module.exports = {
       newKey: 'newValue',
     },
     {
-      id: 4,
       title: 'Yamuni Tabush Foundation',
       label: 'Yamuni Tabush Foundation',
       path: '/yamunitabush',
@@ -187,7 +183,6 @@ module.exports = {
       newKey: 'newValue',
     },
     {
-      id: 5,
       title: 'UnoTown',
       label: 'UnoTown',
       path: '/unotown',

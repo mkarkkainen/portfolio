@@ -14,10 +14,27 @@ import {
 } from '@icons-pack/react-simple-icons';
 
 interface ProjectData {
+  alt: string;
+  brief: string;
+  challenge: string;
+  colors: string[];
+  conclusion: string;
+  contribution: string[];
+  coverimg: string;
   description: string;
+  design: string;
+  features: string[];
+  label: string;
+  newKey: string;
+  objectives: string[];
+  path: string;
   roles: string[];
+  target: string;
   title: string;
   tools: string[];
+  ux: string;
+
+  // ... other properties
 }
 
 interface ProjectsProps {
