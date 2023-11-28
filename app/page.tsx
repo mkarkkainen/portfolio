@@ -141,13 +141,13 @@ function ProjectCard({
   return (
     <div className='border border-gray-600 hover:border-gray-400 rounded-xl p-4 flex flex-col gap-4'>
       <h1>{title}</h1>
-      <div className='flex flex-row gap-2'>
+      <div className='flex flex-row flex-wrap gap-2'>
         <h3 className='text-quaternary'>Role:</h3>
         {roles.map((role, i) => (
           <p key={role + i}>{`${role}${i !== roles.length - 1 ? ',' : ''}`}</p>
         ))}
       </div>
-      <div className='flex flex-row gap-2'>
+      <div className='flex flex-row flex-wrap gap-2'>
         <h3 className='text-quaternary'>Tools:</h3>
         {tools.map((tool, i) => (
           <p key={tool + i}>{`${tool}${i !== tools.length - 1 ? ',' : ''}`}</p>
