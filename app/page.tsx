@@ -1,8 +1,7 @@
 // 'use client';
-// import Particles from '@/components/Particles';
+import Particles from '@/components/Particles';
 import { projectsData } from '@/data/projectsData';
 
-// eslint-disable-next-line import/no-extraneous-dependencies
 import {
   SiCss3,
   SiHtml5,
@@ -28,10 +27,10 @@ interface ProjectsProps {
 export default function Home() {
   return (
     <div className='flex flex-col gap-8'>
-      {/* <Particles
+      <Particles
         className='absolute inset-0 -z-10 animate-fade-in'
         quantity={100}
-      /> */}
+      />
       <Header />
       <About />
       <Tools />
@@ -59,11 +58,11 @@ function About() {
     <div className='flex flex-col'>
       <h1 className='text-quaternary'>about</h1>
       <p className='pointer-events-none text-secondary'>
-        Hey, my name is Miikka. I&apos;m a design minded full-stack developer.
-        I&apos;m interested in the intersection between design and technology
-        and always curious to learn. I&apos;m a big fan of React and Next.js. I
-        also enjoy using TypeScript and Tailwind CSS. I&apos;m currently looking
-        for new opportunities to learn and grow as a developer.
+        Hey, my name is Miikka. I&apos;m a design minded developer. I&apos;m
+        interested in the intersection between design and technology and always
+        curious to learn. I&apos;m a big fan of React and Next.js. I&apos;m
+        currently looking for new opportunities to learn and grow as a
+        developer.
       </p>
     </div>
   );
