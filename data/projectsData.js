@@ -142,7 +142,7 @@ module.exports = {
       challenge:
         'Design and develop a responsive website that showcases the best local food spots in the city.',
       description:
-        'Lead the UX/UI design phase for a Patient Management System, collaborating closely with the client to gather requirements and crafting feature prototypes. Transitioning into the development phase, I played a dual role as a front-end developer within a dynamic team, translating design concepts into functional, user-friendly features. This multifaceted involvement ensured a cohesive integration of user experience and front-end development, resulting in an enhanced and intuitive patient management solution.',
+        'Led the UX/UI design phase for a Patient Management System, collaborating closely with the client to gather requirements and crafting feature prototypes. Transitioning into the development phase, I played a dual role as a front-end developer within a dynamic team, translating design concepts into functional, user-friendly features. This multifaceted involvement ensured a cohesive integration of user experience and front-end development, resulting in an enhanced and intuitive patient management solution.',
       newKey: 'newValue',
     },
     {
