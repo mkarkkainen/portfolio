@@ -15,10 +15,10 @@ const DMsans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  authors: [{ name: 'Miikka Karkkainen', url: 'https://miikkaaa.com' }],
-  category: 'design',
+  authors: [{ name: 'Miikka Karkkainen', url: 'https://miikkaa.com' }],
+  category: 'design, development, engineering',
   creator: 'Miikka Karkkainen',
-  description: 'Design Engineer.',
+  description: 'Designer, Engineer.',
   icons: {
     apple: '/static/favicons/apple-touch-icon-180x180.png',
     icon: '/static/favicons/favicon-196x196.png',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   ],
   manifest: '/static/favicons/site.webmanifest',
   openGraph: {
-    description: 'Design Engineer.',
+    description: 'Designer, Engineer.',
     images: [
       {
         alt: 'Miikka Karkkainen',
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     siteName: 'Miikka Karkkainen',
     title: 'Miikka Karkkainen',
     type: 'website',
-    url: 'https://miikkaaa.com',
+    url: 'https://miikkaa.com',
   },
   publisher: 'Miikka Karkkainen',
   robots: {
