@@ -55,19 +55,19 @@
 
 @layer utilities {
   .text-primary {
-    @apply text-black dark:text-[#FFEADB];
+    @apply text-[#FFEADB];
   }
 
   .text-secondary {
-    @apply text-black/80 dark:text-[#FFEADB]/80;
+    @apply text-[#FFEADB]/80;
   }
 
   .text-tertiary {
-    @apply text-black/60 dark:text-[#FFEADB]/60;
+    @apply text-[#FFEADB]/60;
   }
 
   .text-quaternary {
-    @apply text-black/40 dark:text-[#FFEADB]/40;
+    @apply text-[#FFEADB]/40;
   }
 
   .flip-card {
