@@ -49,7 +49,7 @@ module.exports = {
       challenge:
         'Design and build a gamified donation platform based on the existing one. Section features to be developed in phases and plan a feature runway for long-term development.',
       description:
-        'Independently conceptualized and executed a comprehensive website redesign for a logistics company, seamlessly integrating an innovative design approach with hands-on coding expertise. Crafted an intuitive user interface and implemented responsive web development, resulting in an enhanced online presence for the company and an improved user experience for visitors.',
+        'Independently conceptualized and executed a comprehensive website redesign for a logistics company, integrating a design approach with hands-on coding expertise. Crafted an intuitive user interface and implemented responsive web development, resulting in an enhanced online presence for the company and an improved user experience for visitors.',
       newKey: 'newValue',
     },
     {
@@ -101,7 +101,7 @@ module.exports = {
       challenge:
         'Design and build a gamified donation platform based on the existing one. Section features to be developed in phases and plan a feature runway for long-term development.',
       description:
-        'Led the design for a gamified donation platform, seamlessly integrating creative vision into the project. Collaborated closely with a talented front-end development team, contributing to the implementation process while honing my own front-end development skills. The result is a dynamic and engaging platform that merges innovative design with effective functionality, elevating the user experience and fostering a new dimension to charitable giving.',
+        'Led the design for a gamified donation platform, seamlessly integrating creative vision into the project. Collaborated closely with a talented front-end development team, contributing to the implementation process while honing my own front-end development skills. The result is a dynamic and engaging application, elevating the user experience and fostering a new dimension to charitable giving.',
       newKey: 'newValue',
     },
     {
@@ -142,7 +142,7 @@ module.exports = {
       challenge:
         'Design and develop a responsive website that showcases the best local food spots in the city.',
       description:
-        'Spearheaded the UX/UI design phase for a Patient Management System, collaborating closely with clients to gather requirements and crafting innovative feature prototypes. Transitioning seamlessly into the development phase, I played a dual role as a front-end developer within a dynamic team, translating design concepts into functional, user-friendly features. This multifaceted involvement ensured a cohesive integration of user experience and front-end development, resulting in an enhanced and intuitive patient management solution.',
+        'Lead the UX/UI design phase for a Patient Management System, collaborating closely with the client to gather requirements and crafting feature prototypes. Transitioning into the development phase, I played a dual role as a front-end developer within a dynamic team, translating design concepts into functional, user-friendly features. This multifaceted involvement ensured a cohesive integration of user experience and front-end development, resulting in an enhanced and intuitive patient management solution.',
       newKey: 'newValue',
     },
     {
@@ -179,7 +179,7 @@ module.exports = {
       challenge:
         'Design and develop a responsive website that showcases the best local food spots in the city.',
       description:
-        "As a web designer, I leveraged my creative expertise to craft a visually compelling and user-centric design for an organization's online presence using Figma. Meticulously conceptualizing each element, I created an aesthetically pleasing and functional layout that aligns seamlessly with the organization's brand identity. The result is a thoughtfully designed digital experience poised to elevate the organization's online representation.",
+        "As a web designer, I leveraged my creative expertise to craft a visually compelling and user-centric design for an organization's online presence using Figma. I created an aesthetically pleasing and functional layout that aligns with the organization's brand identity. The result is a thoughtfully designed digital experience poised to elevate the organization's online representation.",
       newKey: 'newValue',
     },
     {
