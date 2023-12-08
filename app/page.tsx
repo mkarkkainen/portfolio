@@ -2,17 +2,6 @@
 // import Particles from '@/components/Particles';
 import { projectsData } from '@/data/projectsData';
 
-import {
-  SiCss3,
-  SiHtml5,
-  SiReact,
-  SiTypescript,
-  SiTailwindcss,
-  SiNodedotjs,
-  SiGit,
-  SiNextdotjs,
-} from '@icons-pack/react-simple-icons';
-
 interface ProjectData {
   alt: string;
   brief: string;
@@ -50,7 +39,7 @@ export default function Home() {
       /> */}
       <Header />
       <About />
-      <Tools />
+
       <Projects projectsData={projectsData} />
     </div>
   );
@@ -81,48 +70,6 @@ function About() {
         currently looking for new opportunities to learn and grow as a
         developer.
       </p>
-    </div>
-  );
-}
-
-function Tools() {
-  return (
-    <div className='flex flex-col gap-4'>
-      <div className='text-secondary flex flex-col gap-2'>
-        <h1 className='text-quaternary'>tools</h1>
-        <div className='flex flex-row  gap-3'>
-          <a href='https://react.dev/' target='_blank'>
-            <SiReact color='default' size={24} />
-          </a>
-          <a href='https://nextjs.org/' target='_blank'>
-            <SiNextdotjs color='default' size={24} />
-          </a>
-          <a href='https://www.typescriptlang.org/' target='_blank'>
-            <SiTypescript color='default' size={24} />
-          </a>
-          <a
-            href='https://developer.mozilla.org/en-US/docs/Web/CSS'
-            target='_blank'
-          >
-            <SiCss3 color='default' size={24} />
-          </a>
-          <a
-            href='https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
-            target='_blank'
-          >
-            <SiHtml5 color='default' size={24} />
-          </a>
-          <a href='https://tailwindcss.com/' target='_blank'>
-            <SiTailwindcss color='default' size={24} />
-          </a>
-          <a href='https://nodejs.org/en/about' target='_blank'>
-            <SiNodedotjs color='default' size={24} />
-          </a>
-          <a href='https://git-scm.com/' target='_blank'>
-            <SiGit color='default' size={24} />
-          </a>
-        </div>
-      </div>
     </div>
   );
 }
@@ -235,7 +182,7 @@ function Contact() {
         website='mkarkkainen'
       />
       <ContactLink
-        href='https://shorturl.at/nKMP9'
+        href='https://shorturl.at/vBEGS'
         title='resume'
         website='click'
       />

@@ -1,7 +1,7 @@
 {
-  "name": "Template",
-  "short_name": "template.cretu.dev",
-  "description": "Template",
+  "name": "Site",
+  "short_name": "miikkaa.com",
+  "description": "Portfolio Website",
   "icons": [
     {
       "src": "/static/favicons/android-chrome-192x192.png",
